@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heitor Gonçalves Jorte - Delegado | Portfólio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<header class="header">
+    <a href="#" class="logo">&lt;Dev/Heitor Gonçalves Jorte&gt;</a>
+    <nav class="nav">
+        </nav>
+
+    <div class="lang-selector">
+        <button type="button" style="border: none; background: none; cursor: pointer;">
+            <img src="images (4).jpg" alt="Português" width="30" height="20">
+        </button>
+        
+        <span>|</span>
+        <button type="button" style="border: none; background: none; cursor: pointer;">
+            <img src="estados-unidos.webp" alt="English" width="30" height="20">
+        </button>
+    </div>
+
+    <button id="mode-toggle" title="Alternar Modo Escuro/Claro">
+        <i class="fas fa-sun"></i> 
+    </button>
+</header>
+
+<section id="home" class="hero">
+    <div class="hero-content">
+        <p class="greeting" data-key="heroGreeting">Olá, eu sou</p>
+        <h1 data-key="heroName">Heitor Gonçalves Jorte</h1>
+        <p class="bio" data-key="heroBio">Sou apaixonado em investigar casos , coordenar equipe e ser leal a pátria. Com foco em ser o melhor Delegado Civil do Brasil.</p>
+        <a href="#projetos" class="btn primary-btn" data-key="heroButton">Ver Projetos</a>
+        </div>
+    </section>
+
+    <section id="habilidades" class="skills section">
+        <h2>Minhas Habilidades</h2>
+        <div class="skills-grid">
+            <div class="skill-item">
+                <p>Direito Civil e Processual Civil</p>
+                <div class="bar-container"><div class="bar" data-percent="95"></div></div>
+            </div>
+            <div class="skill-item">
+                <p>Bacharelado em Direito</p>
+                <div class="bar-container"><div class="bar" data-percent="85"></div></div>
+            </div>
+             <div class="skill-item">
+                <p>Direito Penal</p>
+                <div class="bar-container"><div class="bar" data-percent="75"></div></div>
+            </div>
+             <div class="skill-item">
+                <p>Direitos Humanos</p>
+                <div class="bar-container"><div class="bar" data-percent="80"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="projects section">
+        <h2>Meus Projetos de Destaque</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-overlay">
+                    <h3>Minha Primeira Mega Operação</h3>
+                    <img src="megaoperacao-rio-de-janeiro-750x450.jpg"width="250">
+                    <div class="project-links">
+                        <a href="#" target="_blank" class="btn small-btn">Demo</a>
+                        <a href="#" target="_blank" class="btn small-btn outline-btn"><i class="fab fa-github"></i> Código</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-overlay">
+                    <h3>Minha Atual Delegacia</h3>
+                    <img src="WhatsApp Image 2024-03-15 at 15.08.43.jpg"width="250">
+                    <div class="project-links">
+                        <a href="#" target="_blank" class="btn small-btn">Documentação</a>
+                        <a href="#" target="_blank" class="btn small-btn outline-btn"><i class="fab fa-github"></i> Código</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-overlay">
+                    <h3>Minha Formatura de Direito</h3>
+                    <img src="formatura.jpg"width="250">
+                    <div class="project-links">
+                        <a href="#" target="_blank" class="btn small-btn">Ver Site</a>
+                        <a href="#" target="_blank" class="btn small-btn outline-btn"><i class="fab fa-github"></i> Código</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact section">
+        <h2>Vamos Trabalhar Juntos?</h2>
+        <p>Entre em contato para analisar uma possível transferência, amizade ou apenas para tomar um café.</p>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Seu Nome" required>
+            <input type="email" name="email" placeholder="Seu Email" required>
+            <textarea name="message" placeholder="Sua Mensagem" required></textarea>
+            <button type="submit" class="btn primary-btn">Enviar Mensagem</button>
+            <p id="form-message" class="message-feedback"></p>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 Heitor Gonçalves Jorte. Feito com paixão e código.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
